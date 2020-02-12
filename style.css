@@ -1,49 +1,40 @@
+.container {
+  width: 100%;
+  max-width: 1219px; /*максимальная ширина*/
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 .logo {
-	position: absolute;
-color: #FFFFFF;
+background-image: url('https://writerous.github.io/images/logo.png');
+width: 183px;
+height: 44px;
+text-decoration: none;
+line-height: 38px;
 float: left;
-width: 184px;
-height: 45px;
-left: 55px;
-top: 20px;
+margin-top: 20px;
 }
+
 nav {
-float: right;
-}
-nav ul {
-  margin: 0;
-  padding: 0;
- list-style: none;
-}
-nav li {
-  display: inline-block; /*один из способов разместить элементы в строку*/
+	color: #FFFFFF;
+	float: right;
+	margin-top: 29px;
+display: inline-block;
+padding: 0;
 }
 
 header {
- width: 100%;
- background: #007765;
- height: 84px;
- font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 24px;
-line-height: 28px;
-text-align: center;
+	position: fixed;
+	background-color: #007765;
+width: 1219px;
+height: 84px;
+left: 0px;
+top: 0px;
 }
-
 .container:after {
   content: "";
   display: table;
   clear: both;
-}
-
-.container {
-  box-sizing: border-box;
-  max-width: 1219px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 55px;
-  padding-right: 55px;
 }
 
 .Jumbotron {
@@ -55,13 +46,13 @@ text-align: center;
 }
 
 .Jumbotron__message {
-  font-family: Roboto, sans-serif;
-  font-style: italic;
-  font-weight: 500;
-  font-size: 48px;
-  line-height: 56px;
-  text-align: center;
-  color: #fff;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 84px;
+text-align: center;
+color: #FFFFFF;
 }
 .container {
   box-sizing: border-box;
@@ -73,6 +64,7 @@ text-align: center;
 }
 
 .The_Problem{
+	  text-align: center;
   padding-top: 128px;
   padding-bottom: 128px;
   background: #EEEEEE;
@@ -80,12 +72,25 @@ text-align: center;
   background-position: center center;
 }
 
-.The_Problem__message {
-width: 1110px;
-height: 488px;
-left: 451px;
-top: 626px;
+.The_Problem__mess {
+text-align: center;
+width: 1107px;
+height: 75px;
+left: 55px;
+top: 535px;
 
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+color: #007765;
+}
+
+.The_Problem__message {
+text-align: left;
+width: 1110px;
+height: 388px;
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
@@ -94,13 +99,151 @@ line-height: 37px;
   color: #000000;
 }
 
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
 
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url('https://i.ibb.co/PM6cMBn/image.png');
+  background-size: cover;
+  background-position: center center;
+}
 
+.hero__message {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
 
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
 
+.PPC {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background: #FFFFFF;
+  background-size: cover;
+  background-position: center center;
+}
 
+.Label_PPC {
+width: 1110px;
+height: 75px;
+left: 55px;
+top: 1737px;
 
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 75px;
+text-align: center;
+color: #007765;
+}
 
+.PPC__message {
+  font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+color: #000000;
+}
+
+.col-1-3 {
+/*	width: 115px;
+height: 150px;
+left: 55px;
+top: 1828px;*/
+  width: 17%;
+  height: 150px;
+  float: left;
+}
+
+.col-2-3 {
+	width: 930px;
+height: 110px;
+left: 218px;
+top: 1828px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+
+color: #000000;
+
+  width: 83%;
+  float: left;
+}
+.container:after, .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.The_Problem{
+	  text-align: center;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background: #EEEEEE;
+  background-size: cover;
+  background-position: center center;
+}
+
+.The_Team__mess {
+width: 1110px;
+height: 75px;
+left: 55px;
+top: 2341px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 75px;
+text-align: center;
+color: #007765;
+}
+
+.The_Team__message {
+text-align: left;
+width: 1110px;
+height: 388px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+  color: #000000;
+
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
 
 
 
