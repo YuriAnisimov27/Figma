@@ -1,0 +1,106 @@
+.logo {
+	position: absolute;
+color: #FFFFFF;
+float: left;
+width: 184px;
+height: 45px;
+left: 55px;
+top: 20px;
+}
+nav {
+float: right;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+ list-style: none;
+}
+nav li {
+  display: inline-block; /*один из способов разместить элементы в строку*/
+}
+
+header {
+ width: 100%;
+ background: #007765;
+ height: 84px;
+ font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+text-align: center;
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.Jumbotron {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url('https://s3-alpha-sig.figma.com/img/9e49/7f3d/f0c0c5a5f4c8e134a751795ba5497b38?Expires=1582502400&Signature=Tv2m0HZReewpGSK0JtAuNS3QutywsrZobFHoWppbVOlwhd~wHJOR8HjxP8UUjt~FtA~xwQX3ZLkgYgPnSrM~6oLzkeazF7nl4vtHYvNMB8FrB5qvgr-vfjCn52BvnMUblHJNb3h4F2aUtEVD0YAuIkCq4mOm~AAG5WbRjKuSGIsnpvNwHprMLQQhkjNtR2ZfDv8-KrHEMDFXMuEx~TFgtaGWncd~NM-nBbPNX5pOMmcNCrcjccaM0z7T~1OrOnta0du3mP1wIxqIxG7opUEfr5632CJBiRk8GHauSysHhgl2mwkTksJNnpDvK0yjaDOi1FcJG7lOx6xMVtClZYGPcg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-size: cover;
+  background-position: center center;
+}
+
+.Jumbotron__message {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.The_Problem{
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background: #EEEEEE;
+  background-size: cover;
+  background-position: center center;
+}
+
+.The_Problem__message {
+width: 1110px;
+height: 488px;
+left: 451px;
+top: 626px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 37px;
+  color: #000000;
+}
+
+
+
+
+
+
+
+
+
+
+
