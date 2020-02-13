@@ -212,98 +212,49 @@ color: #000000;
   background-position: center center;
 }
 
-.The_Team__mess {
-width: 1110px;
-height: 75px;
-left: 55px;
-top: 2341px;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 64px;
-line-height: 75px;
-text-align: center;
-color: #007765;
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #eee;
 }
 
-.The_Team__message {
-text-align: left;
-width: 1110px;
-height: 388px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 32px;
-line-height: 37px;
-  color: #000000;
-
+h1 {
+  color: #007765;
+  font-weight: 500;
+  text-align: center;
+  font-size: 64px;
 }
 
 .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.member {
+  text-align: center;
+  padding: 24px;
   box-sizing: border-box;
-  max-width: 1219px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 55px;
-  padding-right: 55px;
-
+  margin-bottom: 30px;
+  flex-basis: 33%
 }
 
-.col-1-3 {
-  width: 33.3333333333%;
-  float: left;
+.member-name {
+  margin: 0;
+  margin-top: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #007765;
 }
 
-}
-.col-2-3 {
-  width: 33.3333333333%;
-  float: left;
-  
+.member-role {
+  font-style: italic;
+  font-size: 18px;
 }
 
-}
-.col-3-3 {
-  width: 33.3333333333%;
- float: right;
-}
+.members {
+  width: 100%;
+  display: flex;
+  flex-flow:  wrap;
 
-.container:after, .row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.row {
-  margin-bottom: 15px;
-}
-
-
-.name11 {
-width: 199px;
-height: 29px;
-left: 131px;
-top: 2652px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 24px;
-line-height: 28px;
-color: #007765;
-}
-
-.name12 {
-  width: 218px;
-height: 22px;
-left: 170px;
-top: 2681px;
-
-font-family: Roboto;
-font-style: italic;
-font-weight: normal;
-font-size: 18px;
-line-height: 21px;
-color: #000000;
 }
 
 footer {
