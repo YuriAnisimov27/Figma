@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   max-width: 1219px; /*максимальная ширина*/
-  padding: 0 15px;
+  padding: 0 0;
   margin: 0 auto;
 }
 
@@ -16,11 +16,15 @@ margin-top: 20px;
 }
 
 nav {
-	color: #FFFFFF;
+  float: right;
+}
+
+nav li {
+  display: inline-block;
+}
+
+ul {
 	float: right;
-	margin-top: 29px;
-display: inline-block;
-padding: 0;
 }
 
 header {
@@ -31,6 +35,7 @@ height: 84px;
 left: 0px;
 top: 0px;
 }
+
 .container:after {
   content: "";
   display: table;
@@ -38,7 +43,7 @@ top: 0px;
 }
 
 .Jumbotron {
-  padding-top: 128px;
+  padding-top: 212px;
   padding-bottom: 128px;
   background-image: url('https://s3-alpha-sig.figma.com/img/9e49/7f3d/f0c0c5a5f4c8e134a751795ba5497b38?Expires=1582502400&Signature=Tv2m0HZReewpGSK0JtAuNS3QutywsrZobFHoWppbVOlwhd~wHJOR8HjxP8UUjt~FtA~xwQX3ZLkgYgPnSrM~6oLzkeazF7nl4vtHYvNMB8FrB5qvgr-vfjCn52BvnMUblHJNb3h4F2aUtEVD0YAuIkCq4mOm~AAG5WbRjKuSGIsnpvNwHprMLQQhkjNtR2ZfDv8-KrHEMDFXMuEx~TFgtaGWncd~NM-nBbPNX5pOMmcNCrcjccaM0z7T~1OrOnta0du3mP1wIxqIxG7opUEfr5632CJBiRk8GHauSysHhgl2mwkTksJNnpDvK0yjaDOi1FcJG7lOx6xMVtClZYGPcg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
   background-size: cover;
