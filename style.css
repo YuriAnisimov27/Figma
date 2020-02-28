@@ -40,7 +40,7 @@ text-align: center;
 color: #FFFFFF;
 	position: fixed;
 	background-color: #007765;
-width: 1203px;
+width: 1293px;
 height: 84px;
 top: 0px;
 }
@@ -64,7 +64,7 @@ color: #FFFFFF;
 .Jumbotron {
   padding-top: 212px;
   padding-bottom: 128px;
-  background-image: url('https://s3-alpha-sig.figma.com/img/9e49/7f3d/f0c0c5a5f4c8e134a751795ba5497b38?Expires=1582502400&Signature=Tv2m0HZReewpGSK0JtAuNS3QutywsrZobFHoWppbVOlwhd~wHJOR8HjxP8UUjt~FtA~xwQX3ZLkgYgPnSrM~6oLzkeazF7nl4vtHYvNMB8FrB5qvgr-vfjCn52BvnMUblHJNb3h4F2aUtEVD0YAuIkCq4mOm~AAG5WbRjKuSGIsnpvNwHprMLQQhkjNtR2ZfDv8-KrHEMDFXMuEx~TFgtaGWncd~NM-nBbPNX5pOMmcNCrcjccaM0z7T~1OrOnta0du3mP1wIxqIxG7opUEfr5632CJBiRk8GHauSysHhgl2mwkTksJNnpDvK0yjaDOi1FcJG7lOx6xMVtClZYGPcg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
+  background-image: url('https://s3-alpha-sig.figma.com/img/9e49/7f3d/f0c0c5a5f4c8e134a751795ba5497b38?Expires=1583712000&Signature=cQ9oDxeplweqpCOlFo-pVnGMfAuVNi~tIs-Ho4iSBaaXzU8AzJ0nI7OPdvkLqFuZh4uTqotZXA9MNGdS33wx2t8xjwVKfBOBv8NOXv6-hCre4Orfc~4b9pAfZmTCe-xG7zeQBLyId5v4cQmAAE6-rruGOGtKWVu0WwOQ06UbjqpNCeBlttNf0Lj2LzJ5UUZlgLpFLmRstFGpe6pWikxd777ovVvK3wrz5pdSQ2TVUw1ghDBM-cz2tnp4eRmqo5nMLXvvXAVM4Z74PduD0lJ8yTGnOYXlTAehRR-0yFEW~ncG2Os3ezyDX8BOs82xSgCs7WlgPHlLAw36m7bjVNCg0A__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA');
   background-size: cover;
   background-position: center center;
 }
