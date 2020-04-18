@@ -23,11 +23,9 @@ img {
 
 /* Reset end */
 
-.header {
-    height: 84px;
-    left: 0px;
-    top: 0px;
-    background: #007765;
+#header {
+    width: 100%;
+    background-color: #007765;
 }
 
 .container {
@@ -39,7 +37,38 @@ img {
     padding-right: 55px;
   }
   
+.navigation {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 84px;
+    left: 0px;
+    top: 0px;
+}
 
+.logo a + a {
+    margin-left: -48px;
+}
+
+.header-nav a {
+    width: 154px;
+    height: 29px;
+    left: 890px;
+    top: 29px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.header-nav a + a{
+    margin-left: 8px;
+}
 
 .ppnet {
     padding-top: 128px;
@@ -58,6 +87,46 @@ img {
     line-height: 84px;
     text-align: center;
     color: #fff;
+}
+
+.the_problem {
+    height: 719px;
+    left: 0px;
+    top: 487px;
+    background: #EEEEEE;
+}
+
+.problem__message h1 {
+    padding-top: 48px;
+    padding-bottom: 16px;
+    width: 1107px;
+    height: 75px;
+    left: 451px;
+    top: 535px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #007765;
+}
+
+.problem__message p {
+    padding-bottom: 60px;
+    text-align: left;
+    width: 1110px;
+    top: 626px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
 }
 
 .hero {
