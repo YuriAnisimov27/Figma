@@ -24,8 +24,10 @@ img {
 /* Reset end */
 
 #header {
+  position: fixed;
   width: 100%;
   background-color: #007765;
+  z-index: 99;
 }
 
 .container {
@@ -71,7 +73,7 @@ img {
 }
 
 .ppnet {
-  padding-top: 128px;
+  padding-top: 228px;
   padding-bottom: 128px;
   background-image: url(../images/ppnet.png);
   background-size: cover;
