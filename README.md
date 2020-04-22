@@ -1,7 +1,7 @@
-# Peir_Piper
-Верстка по макету psd на фигме / creation by layout psd 
-13.02.20 В блоке The_Team упорядочил элементы с помощью flexbox / in block The_team ordered the elements using flexbox
-14.02.20 готово. якоря исправлены, хедер оформлен / the work is done. anchors and header function normally
-в перспективе адаптация
-28.02.20 поправил битые ссылки на картинки и width 
-17.04.20 restart. 2.0
+Pied Piper (v. 2.0 - April 22, 2020)
+
+https://www.figma.com/file/BL7wdCOSIxYFu1uxctuVzg/%D0%94%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B5%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5-Pied-Piper?node-id=0%3A1
+
+
+?????
+
