@@ -230,3 +230,26 @@ img {
   margin-top: 32px;
   display: grid;
 }
+
+.footer {
+  display: flex;
+  height: 176px;
+  left: 0px;
+  top: 3138px;
+  background: #333333;
+}
+
+.footer__message {
+  padding-top: 48px;
+  width: 540px;
+  height: 64px;
+  left: 340px;
+  top: 3186px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
