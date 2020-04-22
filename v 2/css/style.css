@@ -27,7 +27,7 @@ img {
   position: fixed;
   width: 100%;
   background-color: #007765;
-  z-index: 99;
+  z-index: 0;
 }
 
 .container {
@@ -186,6 +186,7 @@ img {
 
 .rowIntro img {
   margin-top: 40px;
+  margin-right: 42px;
   width: 115px;
   height: 115px;
 }
@@ -254,4 +255,10 @@ img {
   line-height: 21px;
   text-align: center;
   color: #FFFFFF;
+}
+
+#ancor1, #ancor2, #ancor3 {
+
+  position: absolute; margin-top: -82px;
+
 }
