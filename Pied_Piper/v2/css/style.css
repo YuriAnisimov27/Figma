@@ -1,0 +1,264 @@
+/* Reset start */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: #212121;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Reset end */
+
+#header {
+  position: fixed;
+  width: 100%;
+  background-color: #007765;
+  z-index: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
+.navigation {
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 84px;
+  left: 0px;
+  top: 0px;
+}
+
+.logo a + a {
+  margin-left: -48px;
+}
+
+.header-nav a {
+  width: 154px;
+  height: 29px;
+  left: 890px;
+  top: 29px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  /* identical to box height */
+  text-align: center;
+  color: #ffffff;
+}
+
+.header-nav a + a {
+  margin-left: 8px;
+}
+
+.ppnet {
+  padding-top: 228px;
+  padding-bottom: 128px;
+  background-image: url(../images/ppnet.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+.ppnet__message {
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  color: #fff;
+}
+
+.the_problem {
+  height: 719px;
+  left: 0px;
+  top: 487px;
+  background: #eeeeee;
+}
+
+.problem__message h1 {
+  padding-top: 48px;
+  padding-bottom: 16px;
+  height: 75px;
+  left: 451px;
+  top: 535px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  /* identical to box height */
+  text-align: center;
+  color: #007765;
+}
+
+.problem__message p {
+  padding-bottom: 50px;
+  text-align: left;
+  top: 626px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.hero {
+  padding-top: 128px;
+  padding-bottom: 128px;
+  background-image: url("https://i.ibb.co/PM6cMBn/image.png");
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero__message {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  color: #fff;
+}
+
+.introducing {
+  max-width: 100%;
+  height: 604px;
+  left: 0px;
+  top: 1689px;
+}
+
+.introducing h1 {
+  padding-top: 48px;
+  padding-bottom: 16px;
+  height: 75px;
+  left: 451px;
+  top: 1737px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  /* identical to box height */
+  text-align: center;
+  color: #007765;
+}
+
+.rowIntro {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rowIntro p {
+  height: 110px;
+  left: 218px;
+  top: 1828px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.rowIntro img {
+  margin-top: 40px;
+  margin-right: 42px;
+  width: 115px;
+  height: 115px;
+}
+
+.intro__message p {
+  padding-top: 40px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+  color: #000000;
+}
+
+.the_team {
+  width: 100%;
+  height: 845px;
+  left: 0px;
+  top: 2293px;
+  background: #eeeeee;
+}
+
+.the_team h1 {
+  padding-top: 48px;
+  height: 75px;
+  left: 55px;
+  top: 2341px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 75px;
+  /* identical to box height */
+  text-align: center;
+  color: #007765;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  margin-top: 32px;
+  display: grid;
+}
+
+.footer {
+  display: flex;
+  height: 176px;
+  left: 0px;
+  top: 3138px;
+  background: #333333;
+}
+
+.footer__message {
+  padding-top: 48px;
+  width: 540px;
+  height: 64px;
+  left: 340px;
+  top: 3186px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+#ancor1, #ancor2, #ancor3 {
+
+  position: absolute; margin-top: -82px;
+
+}
