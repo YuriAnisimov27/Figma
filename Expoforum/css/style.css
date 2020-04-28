@@ -121,9 +121,11 @@ img {
     background: #F6404F;
 }
 
+.item1, .item2, .item3, .item4 {
+    padding: 30px 40px;
+}
+
 h3 {
-    width: 127px;
-    height: 54px;
     font-style: normal;
     font-weight: 500;
     font-size: 21px;
@@ -133,14 +135,46 @@ h3 {
 }
 
 p {
-    width: 72px;
-    height: 19px;
-    left: 1015px;
-    top: 493px;
     font-family: Circe;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 135%;
+    color: #FFFFFF;
+    padding-top: 15px;
+}
+
+.first-screen-title {
+    margin-top: 267px;
+    margin-right: 37px;
+    align-self: flex-start;
+    width: 535px;
+    height: 224px;
+}
+
+.first-screen-title h1 {
+    margin-bottom: 35px;
+    width: 420px;
+    height: 74px;
+    left: 403px;
+    top: 274px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.first-screen-title h4 {
+    margin-bottom: 25px;
+    width: 403px;
+    height: 68px;
+    left: 405px;
+    top: 383px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 140%;
     color: #FFFFFF;
 }
