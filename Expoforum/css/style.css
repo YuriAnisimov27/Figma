@@ -33,7 +33,7 @@ img {
     border-bottom: 1px solid #fff;
 }
   
-.container {
+.container-footer {
     box-sizing: border-box;
     max-width: 1920px;
     margin-left: auto;
@@ -177,4 +177,49 @@ p {
     font-size: 24px;
     line-height: 140%;
     color: #FFFFFF;
+}
+
+.bcg {
+    padding: 75px 0;
+    width: 1920px;
+    height: 426px;
+    left: 0px;
+    top: 800px;
+    background: #2378FC;
+}
+
+.container {
+    width: 1114px;
+    height: 276px;
+    left: 403px;
+    top: 875px;
+    margin: 0 403px;
+}
+
+.side-menu-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item h2 {
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.item p {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.item .text-decoration {
+    text-decoration-line: underline;
+    color: #FFC41E;
 }
