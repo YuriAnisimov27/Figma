@@ -378,3 +378,21 @@ footer {
     color: #E0E0E0;
     margin-bottom: 25px;
 }
+
+/* @media screen and (max-width: 1219px) {
+    .container {
+        max-width: 992px;
+    }
+    header {
+        max-width: 1219px;
+    }
+    main {
+        max-width: 1219px;
+    }
+    section {
+        max-width: 1219px;
+    }
+    footer {
+        max-width: 1219px;
+    }
+} */
