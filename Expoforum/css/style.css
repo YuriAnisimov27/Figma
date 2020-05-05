@@ -190,7 +190,6 @@ p {
 
 .container {
     width: 1114px;
-    height: 276px;
     left: 403px;
     top: 875px;
     margin: 0 403px;
@@ -222,4 +221,53 @@ p {
 .item .text-decoration {
     text-decoration-line: underline;
     color: #FFC41E;
+}
+
+.events {
+    width: 1920px;
+    height: 984px;
+    left: 0px;
+    top: 1233px;
+    background: #FFC41E;
+}
+
+.event-text {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+    padding-bottom: 55px;
+}
+
+.event-text h2 {
+    left: 405px;
+    top: 1308px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    letter-spacing: -0.01em;
+    color: #2E373B;
+}
+
+.event-text a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    text-align: right;
+    letter-spacing: -0.01em;
+    text-decoration-line: underline;
+    color: #2E373B;
+}
+
+.event-item {
+    width: 350px;
+    height: 348px;
+    margin-bottom: 30px;
+}
+
+.row-event {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
