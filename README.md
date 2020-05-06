@@ -9,3 +9,9 @@ Expoforum
 
 https://figma.info/blog/templates/2020-01-09-dizajn-sajta-expoforuma.html
 
+
+светотехническое оборудование
+
+https://www.figma.com/file/FfCtAbctPI5Zst8kObMofz/Templates-%2311.-More-on-Figma.info?node-id=1%3A13
+
+
