@@ -113,7 +113,7 @@ main {
 
 .slider { 
     flex-direction: column;
-    margin: 150px auto;
+    margin: 75px auto;
     width: 100%;
     height: 520px;
 }
@@ -150,4 +150,45 @@ h2 {
 .slider-images img {
     width: 48%;
     height: 320px;
+}
+
+.catalog {
+    flex-direction: column;
+    margin: 75px auto;
+    width: 100%;
+    height: 520px;
+}
+
+h3 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #343434;
+}
+
+.catalog-choise {
+    justify-content: center;
+}
+
+.catalog-choise a {
+    margin-top: 60px;
+    margin-bottom: 40px;
+    margin-right: 47px;
+}
+
+.catalog-choise h3:hover {
+    color: #005BC1;
+    text-decoration: underline;
+}
+
+.catalog-items {
+    justify-content: space-between;
+}
+
+.catalog-items img {
+    width: 30%;
 }
