@@ -198,3 +198,28 @@ nav {
     letter-spacing: 0.05em;
     color: #000000;
 }
+
+.services {
+    margin-bottom: 150px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25%;
+    height: 250px;
+    background: #F7F7F7;
+    margin-bottom: 30px;
+}
+
+.service img {
+    margin: auto;
+    width: 25%;
+}
+
+.service h4 {
+    font-size: 21px;
+    line-height: 31px;
+    letter-spacing: 0.02em;
+}
