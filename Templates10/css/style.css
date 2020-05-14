@@ -350,3 +350,19 @@ span {
     color: #F7654A;
 }
 
+footer {
+    width: 100%;
+    height: 82px;
+    background: #404149;
+    margin-top: 150px;
+}
+
+.footer-text {
+    justify-content: space-between;
+}
+
+footer p {
+    margin-top: 27px;
+    font-family: Open Sans;
+    color: white;
+}
