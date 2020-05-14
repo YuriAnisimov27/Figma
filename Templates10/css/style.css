@@ -323,3 +323,30 @@ h5 {
 span {
     color: #F7654A;
 }
+
+.contacts {
+    height: 304px;
+}
+
+.contact {
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+
+.contact+.contact {
+    margin-left: 30px;
+}
+
+.gray {
+    color: #999999;
+}
+
+.black {
+    color: #000000;
+}
+
+.red {
+    color: #F7654A;
+}
+
