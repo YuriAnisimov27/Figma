@@ -50,6 +50,16 @@ h4 {
     color: #000000;
     }
 
+h5 {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 142px;
+    text-transform: uppercase;
+    color: #F7654A;
+}
+
 h6 {
     font-family: Oswald;
     font-style: normal;
@@ -148,6 +158,8 @@ nav {
 }
 
 .request {
+    margin-top: 350px;
+    margin-bottom: 100px;
     width: 100%;
     height: 181px;
     background: #F7654A;
@@ -288,3 +300,26 @@ nav {
     flex-wrap: wrap;
 }
 
+.reviews {
+    margin: 150px auto;
+    height: 431px;
+    margin-bottom: 150px;
+}
+
+.review {
+    margin: 20px;
+    height: 318px;
+}
+
+.review-text {
+    padding: 20px;
+}
+
+h5 {
+    margin-block-start: 0;
+    margin-block-end: -0.8em;
+}
+
+span {
+    color: #F7654A;
+}
