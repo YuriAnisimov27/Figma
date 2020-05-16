@@ -5,7 +5,6 @@
 }
 
 a {
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
@@ -14,12 +13,39 @@ a {
     text-decoration: none;
 }
 
+p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 67px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+h5 {
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+
 .d-flex {
     display: flex;
 }
 
 .align-center {
     align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
 }
 
 .container {
@@ -51,7 +77,59 @@ main {
     color: #212121;
 }
 
-
 .basket-logo {
     margin-right: 100px;
+}
+
+.first-screen {
+
+}
+
+.screeen-text {
+    margin-top: 200px;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    height: 260px;
+}
+
+.rectangle {
+    width: 240px;
+    height: 55px;
+    background: #D7B399;
+}
+
+.rectangle p {
+    color: #FFFFFF;
+}
+
+.screen-image {
+    margin-top: 176px;
+    width: 45%;
+    height: 377px;
+}
+
+.cost {
+    justify-content: flex-end;
+}
+
+.black-cost {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    text-decoration-line: line-through;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.red-cost {
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 51px;
+    text-align: right;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #D84033;
 }
