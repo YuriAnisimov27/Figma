@@ -204,3 +204,8 @@ main {
     height: 150px;
     margin-top: 60px;
 }
+
+.catalog {
+    height: 472px;
+    max-width: 100%;
+}
