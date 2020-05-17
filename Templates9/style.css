@@ -28,6 +28,15 @@ h2 {
     color: #000000;
 }
 
+h3 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
 h4 {
     font-weight: 500;
     font-size: 24px;
@@ -208,4 +217,48 @@ main {
 .catalog {
     height: 472px;
     max-width: 100%;
+    margin-bottom: 200px;
+}
+
+.all-items {
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 649px;
+}
+
+.new-items {
+    width: 100%;
+    height: 649px;
+}
+
+.item-images {
+    justify-content: space-between;
+}
+
+.items-title {
+}
+
+.item-one {
+    width: 22%;
+    height: 350px;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    border: 5px #D7B399;
+    border-style: dashed;
+}
+
+.item-one p {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #D7B399;
+}
+
+.item-one a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
 }
