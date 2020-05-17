@@ -262,3 +262,26 @@ main {
     line-height: 17px;
     color: #000000;
 }
+
+.sales {
+    justify-content: space-between;
+}
+
+.sales-field {
+    width: 255px;
+    height: 40px;
+    background: #F9F6F1;
+}
+
+.sales-btn {
+    width: 185px;
+    height: 40px;
+    background: #D7B399;
+}
+
+.sales-btn p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
