@@ -8,17 +8,22 @@ Expoforum
 https://figma.info/blog/templates/2020-01-09-dizajn-sajta-expoforuma.html
 
 
-светотехническое оборудование
+светотехническое оборудование (templates 11)
 
 https://www.figma.com/file/FfCtAbctPI5Zst8kObMofz/Templates-%2311.-More-on-Figma.info?node-id=1%3A13
 
 
-крупнейшие проекты в россии
+крупнейшие проекты в россии (templates 10)
 
 https://www.figma.com/file/nXJ71TndubUIq3MZyN4aQV/Templates-%2310.-More-on-Figma.info-(Copy)?node-id=1%3A2
 
 
-мазагин одежды 
+мазагин одежды (templates 9)
 
 https://www.figma.com/file/LBTG9XkicpIWdNKgoQXGFbuj/Templates-%239.-More-on-Figma.info?node-id=0%3A1
+
+
+жилой комплекс (templates 8)
+
+https://www.figma.com/file/E6xNcvoOLUTAW4mK08tMwn5f/Templates-%238.-More-on-Figma.info?node-id=1%3A3
 
