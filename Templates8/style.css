@@ -38,6 +38,15 @@ h1 {
     color: #D4C17F;
 }
 
+h4 {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 48px;
+    color: #D4C17F;
+}
+
 p {
     font-family: Raleway;
     font-style: normal;
@@ -123,3 +132,37 @@ header a+a {
     width: 50%;
     margin: auto auto;
 }
+
+.lofts {
+    height: 770px;
+    width: 100%;
+}
+
+.lofts h4 {
+    margin-bottom: 100px;
+}
+
+.loft-row {
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.loft1 {
+    background: url(images/loft3.png);
+    height: 248px;
+    width: 48%;
+}
+
+.loft2 {
+    background: url(images/loft2.png);
+    height: 248px;
+    width: 48%;
+}
+
+.loft-row p {
+    padding-top: 170px;
+    padding-left: 30px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
