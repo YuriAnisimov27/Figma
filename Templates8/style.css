@@ -269,3 +269,50 @@ header a+a {
     line-height: 27px;
     text-align: center;
 }
+
+footer {
+    width: 100%;
+    height: 272px;
+    background: #2D343C;
+}
+
+.footer-items {
+    justify-content: space-between;
+    height: 272px;
+}
+
+.f-item {
+    padding-top: 72px;
+    display: flex;
+    flex-direction: column;
+}
+
+.f-item a {
+    margin-bottom: 17px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+.f-item a span {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #D4C17F;
+}
+
+.f-text {
+    margin-top: -16px;
+}
+
+.s-media {
+    width: 70%;
+    justify-content: space-between;
+}
