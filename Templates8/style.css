@@ -67,7 +67,7 @@ header {
     vertical-align: auto;
     height: 100px;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
 
 }
 
@@ -172,6 +172,10 @@ header a+a {
     height: 560px;
 }
 
+.feedback h4 {
+    margin-top: -30px;
+}
+
 .feedback-block {
     justify-content: space-between;
     height: 560px;
@@ -208,7 +212,7 @@ header a+a {
     margin-top: 30px;
 }
 
-.fr-row input {
+.feedback-block input {
     margin-top: 30px;
     width: 46%;
     height: 50px;
@@ -228,3 +232,40 @@ header a+a {
     text-align: center;
 }
 
+.question-block {
+    height: 330px;
+    width: 100%;
+}
+
+.question-items {
+    justify-content: space-between;
+}
+
+.q-item {
+    width: 23%;
+    height: 50px;
+}
+
+.q-item input {
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    opacity: 0.2;
+}
+
+.q-item .div-btn {
+    width: 100%;
+    height: 50px;
+    background: #D4C17F;
+}
+
+.q-item a {
+    width: 100%;
+    height: 50px;
+    background: #D4C17F;
+    opacity: 1;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    text-align: center;
+}
