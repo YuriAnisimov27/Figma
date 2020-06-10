@@ -27,3 +27,9 @@ https://www.figma.com/file/LBTG9XkicpIWdNKgoQXGFbuj/Templates-%239.-More-on-Figm
 
 https://www.figma.com/file/E6xNcvoOLUTAW4mK08tMwn5f/Templates-%238.-More-on-Figma.info?node-id=1%3A3
 
+
+оборудование для салонов красоты (templates 7)
+
+https://www.figma.com/file/Kb2Bu4grzB2JqZ3LycITDuhZ/Templates-%237.-More-on-Figma.info?node-id=0%3A1
+
+
